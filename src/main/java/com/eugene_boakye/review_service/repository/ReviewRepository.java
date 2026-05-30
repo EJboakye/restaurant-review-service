@@ -1,5 +1,6 @@
+package com.eugene_boakye.review_service.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.eugene_boakye.review_service.model.Review as Review;
+import com.eugene_boakye.review_service.model.Review;
 public interface ReviewRepository extends JpaRepository<Review, Long> {
     
     // Custom query methods can be defined here if needed
